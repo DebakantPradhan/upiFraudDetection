@@ -1,0 +1,59 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv-*/
+venv.bak/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Test, coverage, type checkers
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Environment variables / secrets
+.env
+.env.*.local
+.secret
+secrets.yml
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files and logs
+.DS_Store
+*.log
+
+# Compiled extensions
+*.so
+
+# Generated files (recreated by notebooks)
+dataset/train_dataset.csv
+src/model/
+
+# Jupyter checkpoints
+src/.ipynb_checkpoints/
