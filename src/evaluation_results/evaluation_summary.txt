@@ -1,0 +1,55 @@
+
+================================================================================
+           UPI FRAUD DETECTION - MODEL TEST RESULTS
+================================================================================
+
+MODEL: Random Forest Classifier
+--------------------------------
+• Number of Trees: 100
+• Model File: ./model/random_forest_model.joblib
+
+TEST DATA:
+----------
+• Total Test Samples: 2464
+• Genuine Transactions: 1212
+• Fraud Transactions: 1252
+
+PERFORMANCE METRICS:
+--------------------
+• Accuracy:    99.47%
+• Precision:   99.13%
+• Recall:      99.84%
+• F1-Score:    99.48%
+• ROC-AUC:     0.9992
+
+CONFUSION MATRIX:
+-----------------
+• True Positives (TP):  1250 - Frauds correctly detected
+• True Negatives (TN):  1201 - Genuine correctly identified
+• False Positives (FP): 11 - False alarms
+• False Negatives (FN): 2 - Missed frauds
+
+• Fraud Detection Rate: 99.8%
+• False Alarm Rate:     0.9%
+
+FEATURE IMPORTANCE:
+-------------------
+  • Old Balance (Origin): 0.3592
+  • New Balance (Origin): 0.2042
+  • Amount: 0.1904
+  • Transaction Type: 0.1399
+  • New Balance (Dest): 0.0620
+  • Old Balance (Dest): 0.0442
+
+VISUALIZATIONS GENERATED:
+-------------------------
+1. class_distribution.png
+2. confusion_matrix_rf.png
+3. roc_curve_rf.png
+4. precision_recall_curve_rf.png
+5. feature_importance_rf.png
+6. prediction_distribution_rf.png
+7. classification_report_rf.png
+8. model_performance_summary.png
+
+================================================================================
